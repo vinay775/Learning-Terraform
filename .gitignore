@@ -1,0 +1,8 @@
+# Terraform cache and state
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate*
+crash.log
+# Updated ignore rules for Terraform
