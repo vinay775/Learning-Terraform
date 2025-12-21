@@ -10,6 +10,7 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+#creating vpc 
 resource "aws_vpc" "example" {
   cidr_block = "10.0.0.0/16"
 }
