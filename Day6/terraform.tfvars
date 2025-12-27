@@ -1,0 +1,5 @@
+region        = "us-east-1"
+Environment   = "Dev"
+bucket_name   = "my-terraform-bucket-26122025"
+ami_id        = "ami-068c0051b15cdb816"
+instance_type = "t2.micro"
